@@ -22,10 +22,10 @@ long previousDistance3 = 0;
 
 String MsDeliver = " ";
 
-double minTemp = 35.00;
-double maxTemp = 38.00;
-double minHum = 40.00;
-double maxHum = 70.00;
+double minTemp = 36.00;
+double maxTemp = 38.30;
+double minHum = 55.00;
+double maxHum = 63.00;
 
 LiquidCrystal_I2C lcd(0x27, 16, 2); // I2C address 0x27, 16 column and 2 rows
 
